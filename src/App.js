@@ -14,7 +14,7 @@ import { Box } from '@mui/material';
 const App = () => {
   return (
     <BrowserRouter>
-      <Box sx={{ backgroundColor: 'red' }}>
+      <Box sx={{ backgroundColor: '#000' }}>
         <Navbar />
         <Routes>
           <Route path='/' exact element={<Feed />} />
